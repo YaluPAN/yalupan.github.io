@@ -1,0 +1,161 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: Zhang Yubo
+title: |
+  Undergraduate Student @ COMP, POLYU   
+      
+email: yubo.zhang@connect.polyu.hk
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+#twitter_username: facespics
+github_username:  Yb-Z
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+#instagram_username: jameswgrant
+# linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+# additional_links:
+# - title: itsgoingto.be
+#  icon: fas fa-globe
+#  url: https://www.itsgoingto.be
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+about_profile_image: images/head.jpeg
+about_content: | # this will include new lines to allow paragraphs
+  Hi, I'm Zhang Yubo, an undergraduate student studing Computer Science at <a href="https://www.comp.polyu.edu.hk/">Department of Computing</a> (COMP), 
+  <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a> (PolyU)
+  
+  I am also a research student under supervision of <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a> at the <a href="https://polyusmart.net/">PolyU SMART Lab</a>.
+  
+  My interest focuses on  <mark>NLP</mark>, <mark>Recommendation System</mark>, and <mark>Fintech</mark>.
+  
+  This is the website for my blog: <a href="https://blogs.yubo.space">Zhang Yubo's blogs (Being repaired)</a>
+
+content:
+  - title: Education # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: The Hong Kong Polytechnic University
+        link: https://www.polyu.edu.hk/
+        caption: 2019 - Present
+        link: 
+        link_text: 
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          > BSc (HONS) Financial Technology & Artificial Intelligence
+          
+          > Minor In Applied Mathematics
+          
+      - layout: left
+        title: Seoul National University
+        caption: Start in spring 2022
+        link: 
+        link_text: 
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+          > Exchange Student 
+        
+  - title: Research Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: PolyU SMART Lab 
+        link: https://polyusmart.net/
+        sub_title: Undergraduate Research Student
+        caption: Summer 2020 - Present
+        quote: >
+          
+        description: | # this will include new lines to allow paragraphs
+          **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
+          
+          I have done:
+          - Python crawler on weibo/twitter
+          - Data mining, Data analysis
+          - Pre-train bert model
+          - Recommendation System (Now)
+          
+      - layout: left
+        title: The Chinese University of Hong Kong
+        link: https://www.cuhk.edu.hk/
+        sub_title: Honorary Junior Research Assistant 
+        caption: Summer 2021
+        quote: >
+        
+        description: | # this will include new lines to allow paragraphs
+          **Supervisor: <a href="http://www.cintec.cuhk.edu.hk/kfwong/">Professor WONG Kam Fai</a>**
+          
+      - layout: left
+        title: Undergraduate Research and Innovation Scheme (URIS), PolyU
+        link: https://www.polyu.edu.hk/ous/URIS/
+        caption: 1/9/2021 to 1/1/2023
+        quote: >
+        description: | # this will include new lines to allow paragraphs
+        
+          **My project title: Doctor recommendation in online medical forums**
+          
+          **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
+          
+  - title: Publications
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      **Submitted / In preparation:**
+      - Yuji Zhang, ***Yubo Zhang***, Chunpu Xu, Jing Li, Ziyan Jiang and Baolin Peng, \#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention
+  
+  - title: Society Experience
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - June 2021-Present: “INSPIRE” Mentorship Programme, PolyU
+      
+        Mentor: Mr Yang Zhongxun, Founder & Chief Executive Officer of <a href="http://www.coos.ai/">COOS (超算科技開發有限公司)</a>.  
+        
+      - June 2020-June 2021: Academic Secretary, Chinese Mainland Students' Association, PolyU
+  
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      <a href="https://yalupan.github.io/">&#128147; My Girlfriend, Pan Yalu &#128147;</a>
+      
+      <p>We will organize and update more blogs about our interests as soon as possible~ &#128525;</p>      
+      
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
