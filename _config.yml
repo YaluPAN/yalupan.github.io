@@ -53,11 +53,6 @@ about_content: | # this will include new lines to allow paragraphs
   <a href="https://www.polyu.edu.hk/">The Hong Kong Polytechnic University</a> (PolyU)
   
   
-  
-  
-  
-  
-
 content:
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
@@ -65,17 +60,16 @@ content:
       - layout: left
         title: The Hong Kong Polytechnic University
         link: https://www.polyu.edu.hk/
-        caption: 2019 - Present
+        caption: 2020 - Present
         link: 
         link_text: 
         quote: >
         description: | # this will include new lines to allow paragraphs
           > BSc (HONS) Financial Technology & Artificial Intelligence
           
-          > Minor In Applied Mathematics
           
       - layout: left
-        title: Seoul National University
+        title: Global Education for European Engineers and Entrepreneurs(GE4)
         caption: Start in spring 2022
         link: 
         link_text: 
@@ -83,64 +77,64 @@ content:
         description: | # this will include new lines to allow paragraphs
           > Exchange Student 
         
-  - title: Research Experience # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: left
-        title: PolyU SMART Lab 
-        link: https://polyusmart.net/
-        sub_title: Undergraduate Research Student
-        caption: Summer 2020 - Present
-        quote: >
+  - #title: Research Experience # Title for the section
+    #layout: list # Type of content section (list/text)
+    #content:
+    # - layout: left
+    #    title: PolyU SMART Lab 
+    #    link: https://polyusmart.net/
+    #    sub_title: Undergraduate Research Student
+    #    caption: Summer 2020 - Present
+    #    quote: >
           
-        description: | # this will include new lines to allow paragraphs
-          **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
+    #    description: | # this will include new lines to allow paragraphs
+    #      **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
           
-          I have done:
-          - Python crawler on weibo/twitter
-          - Data mining, Data analysis
-          - Pre-train bert model
-          - Recommendation System (Now)
+    #      I have done:
+    #      - Python crawler on weibo/twitter
+    #      - Data mining, Data analysis
+    #      - Pre-train bert model
+    #      - Recommendation System (Now)
           
-      - layout: left
-        title: The Chinese University of Hong Kong
-        link: https://www.cuhk.edu.hk/
-        sub_title: Honorary Junior Research Assistant 
-        caption: Summer 2021
-        quote: >
+    #  - layout: left
+    #    title: The Chinese University of Hong Kong
+    #    link: https://www.cuhk.edu.hk/
+    #    sub_title: Honorary Junior Research Assistant 
+    #    caption: Summer 2021
+    #    quote: >
         
-        description: | # this will include new lines to allow paragraphs
-          **Supervisor: <a href="http://www.cintec.cuhk.edu.hk/kfwong/">Professor WONG Kam Fai</a>**
+    #    description: | # this will include new lines to allow paragraphs
+    #      **Supervisor: <a href="http://www.cintec.cuhk.edu.hk/kfwong/">Professor WONG Kam Fai</a>**
           
-      - layout: left
-        title: Undergraduate Research and Innovation Scheme (URIS), PolyU
-        link: https://www.polyu.edu.hk/ous/URIS/
-        caption: 1/9/2021 to 1/1/2023
-        quote: >
-        description: | # this will include new lines to allow paragraphs
+    #  - layout: left
+    #    title: Undergraduate Research and Innovation Scheme (URIS), PolyU
+    #    link: https://www.polyu.edu.hk/ous/URIS/
+    #    caption: 1/9/2021 to 1/1/2023
+    #    quote: >
+    #    description: | # this will include new lines to allow paragraphs
         
-          **My project title: Doctor recommendation in online medical forums**
+    #      **My project title: Doctor recommendation in online medical forums**
           
-          **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
+    #      **Supervisor: <a href="http://www4.comp.polyu.edu.hk/~jing1li/">Dr. Li Jing</a>**
           
-  - title: Publications
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      **Submitted / In preparation:**
-      - Yuji Zhang, ***Yubo Zhang***, Chunpu Xu, Jing Li, Ziyan Jiang and Baolin Peng, \#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention
+  #- title: Publications
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    **Submitted / In preparation:**
+  #    - Yuji Zhang, ***Yubo Zhang***, Chunpu Xu, Jing Li, Ziyan Jiang and Baolin Peng, \#HowYouTagTweets: Learning User Hashtagging Preferences via Personalized Topic Attention
   
-  - title: Society Experience
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      - June 2021-Present: “INSPIRE” Mentorship Programme, PolyU
+  #- title: Society Experience
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
+  #    - June 2021-Present: “INSPIRE” Mentorship Programme, PolyU
       
-        Mentor: Mr Yang Zhongxun, Founder & Chief Executive Officer of <a href="http://www.coos.ai/">COOS (超算科技開發有限公司)</a>.  
+  #      Mentor: Mr Yang Zhongxun, Founder & Chief Executive Officer of <a href="http://www.coos.ai/">COOS (超算科技開發有限公司)</a>.  
         
-      - June 2020-June 2021: Academic Secretary, Chinese Mainland Students' Association, PolyU
+  #    - June 2020-June 2021: Academic Secretary, Chinese Mainland Students' Association, PolyU
   
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
+  #- title: A Little More About Me
+  #  layout: text
+  #  content: | # this will include new lines to allow paragraphs
       <a href="https://yalupan.github.io/">&#128147; My Girlfriend, Pan Yalu &#128147;</a>
       
       <p>We will organize and update more blogs about our interests as soon as possible~ &#128525;</p>      
